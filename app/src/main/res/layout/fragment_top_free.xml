@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_Free"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.example.devashish.multigames.TopFreeFragment">
+
+
+    <include
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        layout="@layout/buttons"
+        android:layout_gravity="right|bottom" />
+
+    <include
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        layout="@layout/hands"
+        android:layout_gravity="center" />
+
+</LinearLayout>
